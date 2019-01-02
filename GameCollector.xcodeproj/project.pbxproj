@@ -13,6 +13,15 @@
 		2E7E589D21DD64A3000B0460 /* GameCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E589B21DD64A3000B0460 /* GameCollector.xcdatamodeld */; };
 		2E7E589F21DD64A4000B0460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E589E21DD64A4000B0460 /* Assets.xcassets */; };
 		2E7E58A221DD64A4000B0460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E58A021DD64A4000B0460 /* LaunchScreen.storyboard */; };
+		2E7E58B121DD7333000B0460 /* frbdaf9r07h11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E58A921DD7332000B0460 /* frbdaf9r07h11.jpg */; };
+		2E7E58B221DD7333000B0460 /* Altered-Carbon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E58AA21DD7332000B0460 /* Altered-Carbon.jpg */; };
+		2E7E58B321DD7333000B0460 /* a74a7ef24f7e77dd6c313bf575b9675b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E58AB21DD7332000B0460 /* a74a7ef24f7e77dd6c313bf575b9675b.jpg */; };
+		2E7E58B421DD7333000B0460 /* kimura-toshiyuki-c-0816-lh-neotokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E58AC21DD7333000B0460 /* kimura-toshiyuki-c-0816-lh-neotokyo.jpg */; };
+		2E7E58B521DD7333000B0460 /* 1280x800_10131_DONTNOD_Adrift_concept_art_05_2d_sci_fi_roof_paris_future_city_futuristic_picture_image_digital_art.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E58AD21DD7333000B0460 /* 1280x800_10131_DONTNOD_Adrift_concept_art_05_2d_sci_fi_roof_paris_future_city_futuristic_picture_image_digital_art.jpg */; };
+		2E7E58B621DD7333000B0460 /* Remember-Me-Paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E58AE21DD7333000B0460 /* Remember-Me-Paris.jpg */; };
+		2E7E58B721DD7333000B0460 /* rn47l3d8wkbz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E58AF21DD7333000B0460 /* rn47l3d8wkbz.jpg */; };
+		2E7E58B821DD7333000B0460 /* Screen Shot 2019-01-02 at 5.28.39 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E58B021DD7333000B0460 /* Screen Shot 2019-01-02 at 5.28.39 PM.png */; };
+		2E7E58BA21DD750F000B0460 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E58B921DD750F000B0460 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		2E7E589E21DD64A4000B0460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E7E58A121DD64A4000B0460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E7E58A321DD64A4000B0460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7E58A921DD7332000B0460 /* frbdaf9r07h11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frbdaf9r07h11.jpg; sourceTree = "<group>"; };
+		2E7E58AA21DD7332000B0460 /* Altered-Carbon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Altered-Carbon.jpg"; sourceTree = "<group>"; };
+		2E7E58AB21DD7332000B0460 /* a74a7ef24f7e77dd6c313bf575b9675b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a74a7ef24f7e77dd6c313bf575b9675b.jpg; sourceTree = "<group>"; };
+		2E7E58AC21DD7333000B0460 /* kimura-toshiyuki-c-0816-lh-neotokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kimura-toshiyuki-c-0816-lh-neotokyo.jpg"; sourceTree = "<group>"; };
+		2E7E58AD21DD7333000B0460 /* 1280x800_10131_DONTNOD_Adrift_concept_art_05_2d_sci_fi_roof_paris_future_city_futuristic_picture_image_digital_art.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1280x800_10131_DONTNOD_Adrift_concept_art_05_2d_sci_fi_roof_paris_future_city_futuristic_picture_image_digital_art.jpg; sourceTree = "<group>"; };
+		2E7E58AE21DD7333000B0460 /* Remember-Me-Paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Remember-Me-Paris.jpg"; sourceTree = "<group>"; };
+		2E7E58AF21DD7333000B0460 /* rn47l3d8wkbz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rn47l3d8wkbz.jpg; sourceTree = "<group>"; };
+		2E7E58B021DD7333000B0460 /* Screen Shot 2019-01-02 at 5.28.39 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-01-02 at 5.28.39 PM.png"; sourceTree = "<group>"; };
+		2E7E58B921DD750F000B0460 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +74,16 @@
 		2E7E589321DD64A3000B0460 /* GameCollector */ = {
 			isa = PBXGroup;
 			children = (
+				2E7E58AD21DD7333000B0460 /* 1280x800_10131_DONTNOD_Adrift_concept_art_05_2d_sci_fi_roof_paris_future_city_futuristic_picture_image_digital_art.jpg */,
+				2E7E58AB21DD7332000B0460 /* a74a7ef24f7e77dd6c313bf575b9675b.jpg */,
+				2E7E58AA21DD7332000B0460 /* Altered-Carbon.jpg */,
+				2E7E58A921DD7332000B0460 /* frbdaf9r07h11.jpg */,
+				2E7E58AC21DD7333000B0460 /* kimura-toshiyuki-c-0816-lh-neotokyo.jpg */,
+				2E7E58AE21DD7333000B0460 /* Remember-Me-Paris.jpg */,
+				2E7E58AF21DD7333000B0460 /* rn47l3d8wkbz.jpg */,
+				2E7E58B021DD7333000B0460 /* Screen Shot 2019-01-02 at 5.28.39 PM.png */,
 				2E7E589421DD64A3000B0460 /* AppDelegate.swift */,
+				2E7E58B921DD750F000B0460 /* GameViewController.swift */,
 				2E7E589621DD64A3000B0460 /* ViewController.swift */,
 				2E7E589821DD64A3000B0460 /* Main.storyboard */,
 				2E7E589E21DD64A4000B0460 /* Assets.xcassets */,
@@ -126,8 +153,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E7E58A221DD64A4000B0460 /* LaunchScreen.storyboard in Resources */,
+				2E7E58B621DD7333000B0460 /* Remember-Me-Paris.jpg in Resources */,
+				2E7E58B821DD7333000B0460 /* Screen Shot 2019-01-02 at 5.28.39 PM.png in Resources */,
+				2E7E58B221DD7333000B0460 /* Altered-Carbon.jpg in Resources */,
+				2E7E58B421DD7333000B0460 /* kimura-toshiyuki-c-0816-lh-neotokyo.jpg in Resources */,
+				2E7E58B321DD7333000B0460 /* a74a7ef24f7e77dd6c313bf575b9675b.jpg in Resources */,
+				2E7E58B121DD7333000B0460 /* frbdaf9r07h11.jpg in Resources */,
 				2E7E589F21DD64A4000B0460 /* Assets.xcassets in Resources */,
+				2E7E58B521DD7333000B0460 /* 1280x800_10131_DONTNOD_Adrift_concept_art_05_2d_sci_fi_roof_paris_future_city_futuristic_picture_image_digital_art.jpg in Resources */,
 				2E7E589A21DD64A3000B0460 /* Main.storyboard in Resources */,
+				2E7E58B721DD7333000B0460 /* rn47l3d8wkbz.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7E58BA21DD750F000B0460 /* GameViewController.swift in Sources */,
 				2E7E589D21DD64A3000B0460 /* GameCollector.xcdatamodeld in Sources */,
 				2E7E589721DD64A3000B0460 /* ViewController.swift in Sources */,
 				2E7E589521DD64A3000B0460 /* AppDelegate.swift in Sources */,
