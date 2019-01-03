@@ -38,6 +38,15 @@ class GameViewController: UIViewController, UINavigationControllerDelegate, UIIm
     @IBAction func cameraTapped(_ sender: Any) {
     }
     @IBAction func addTapped(_ sender: Any) {
+      let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let game = Game(context: context)
+        game.title = titleTextField.text
+        game.image = gameImageView.image!.pngData()
+        
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        
+        navigationController!.popViewController(animated: (true))
     }
     
     /*
