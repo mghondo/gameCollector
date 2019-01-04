@@ -35,7 +35,7 @@
                     <navigationItem key="navigationItem" id="6xu-0v-lEd">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="UvQ-wN-PKo">
                             <connections>
-                                <segue destination="uiL-5k-XvG" kind="show" id="67l-7j-kg4"/>
+                                <segue destination="uiL-5k-XvG" kind="show" identifier="gameSegue" id="67l-7j-kg4"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -55,7 +55,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Altered-Carbon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gL3-xt-A1z">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Altered-Carbon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gL3-xt-A1z">
                                 <rect key="frame" x="47.5" y="84" width="280" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="JAK-QG-ggO"/>
@@ -75,6 +75,14 @@
                                     <action selector="addTapped:" destination="uiL-5k-XvG" eventType="touchUpInside" id="gnf-5U-dx0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ior-GC-5cX">
+                                <rect key="frame" x="165" y="354" width="45" height="30"/>
+                                <state key="normal" title="Delete"/>
+                                <connections>
+                                    <action selector="addTapped:" destination="uiL-5k-XvG" eventType="touchUpInside" id="RZt-IH-Sff"/>
+                                    <action selector="deleteTapped:" destination="uiL-5k-XvG" eventType="touchUpInside" id="yX2-us-ySO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -83,7 +91,9 @@
                             <constraint firstItem="gL3-xt-A1z" firstAttribute="centerX" secondItem="ksh-04-Wo2" secondAttribute="centerX" id="jwe-dJ-8Ep"/>
                             <constraint firstItem="gL3-xt-A1z" firstAttribute="top" secondItem="RJ7-Ld-eEg" secondAttribute="top" constant="20" id="kKV-cd-3NU"/>
                             <constraint firstItem="kpc-se-Qxp" firstAttribute="centerX" secondItem="ksh-04-Wo2" secondAttribute="centerX" id="l6t-ZN-x2D"/>
+                            <constraint firstItem="ior-GC-5cX" firstAttribute="top" secondItem="Len-zq-1zF" secondAttribute="bottom" constant="20" id="quK-BT-qlX"/>
                             <constraint firstItem="Len-zq-1zF" firstAttribute="top" secondItem="kpc-se-Qxp" secondAttribute="bottom" constant="20" id="spT-Gi-Wpb"/>
+                            <constraint firstItem="ior-GC-5cX" firstAttribute="centerX" secondItem="ksh-04-Wo2" secondAttribute="centerX" id="vBB-33-Ukg"/>
                             <constraint firstItem="kpc-se-Qxp" firstAttribute="top" secondItem="gL3-xt-A1z" secondAttribute="bottom" constant="20" id="wVK-At-Gfj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RJ7-Ld-eEg"/>
@@ -103,6 +113,8 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="addupdatebutton" destination="Len-zq-1zF" id="KjJ-eJ-pld"/>
+                        <outlet property="deleteButton" destination="ior-GC-5cX" id="pfW-6g-d9h"/>
                         <outlet property="gameImageView" destination="gL3-xt-A1z" id="bRF-82-rYO"/>
                         <outlet property="titleTextField" destination="kpc-se-Qxp" id="teO-1A-FKr"/>
                     </connections>
